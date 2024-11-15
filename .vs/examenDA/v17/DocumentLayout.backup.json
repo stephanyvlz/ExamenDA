@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Archivos Phany\\4toCuatrimestre\\examenDA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F3E54373-4E22-48E2-9A64-518ECC404A37}|examenDA\\examenDA.csproj|e:\\archivos phany\\4tocuatrimestre\\examenda\\examenda\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3E54373-4E22-48E2-9A64-518ECC404A37}|examenDA\\examenDA.csproj|solutionrelative:examenda\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3E54373-4E22-48E2-9A64-518ECC404A37}|examenDA\\examenDA.csproj|e:\\archivos phany\\4tocuatrimestre\\examenda\\examenda\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{F3E54373-4E22-48E2-9A64-518ECC404A37}|examenDA\\examenDA.csproj|solutionrelative:examenda\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "E:\\Archivos Phany\\4toCuatrimestre\\examenDA\\examenDA\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "examenDA\\MainPage.xaml.cs",
+              "ToolTip": "E:\\Archivos Phany\\4toCuatrimestre\\examenDA\\examenDA\\MainPage.xaml.cs*",
+              "RelativeToolTip": "examenDA\\MainPage.xaml.cs*",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAACMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T15:06:28.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "E:\\Archivos Phany\\4toCuatrimestre\\examenDA\\examenDA\\MainPage.xaml",
+              "RelativeDocumentMoniker": "examenDA\\MainPage.xaml",
+              "ToolTip": "E:\\Archivos Phany\\4toCuatrimestre\\examenDA\\examenDA\\MainPage.xaml",
+              "RelativeToolTip": "examenDA\\MainPage.xaml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAACAAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-15T15:01:03.097Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

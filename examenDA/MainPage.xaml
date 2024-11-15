@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="examenDA.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Calculadora basica" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Ingresa los valores para la operación" FontSize="16" Padding="30,0,30,0"/>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"></RowDefinition>
+                <RowDefinition Height="60"></RowDefinition>
+                <RowDefinition Height="60"></RowDefinition>
+                <RowDefinition Height="80"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Entry Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" x:Name="num1"  Text="0"></Entry>
+            <Entry Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" x:Name="num2"  Text="0"></Entry>
+            <Label Grid.Row="1" Grid.ColumnSpan="4" Text="Selecciona la operación que deseas" FontSize="16" Padding="30,0,30,0"/>
+            <Button Grid.Row="2" Grid.Column="0" FontSize="20" Text="+" Clicked="Suma"></Button>
+            <Button Grid.Row="2" Grid.Column="1" FontSize="20" Text="-" Clicked="Resta"></Button>
+            <Button Grid.Row="2" Grid.Column="2" FontSize="20" Text="*" Clicked="Multiplicar"></Button>
+            <Button Grid.Row="2" Grid.Column="3" FontSize="20" Text="%" Clicked="Dividir"></Button>
+            <Entry Grid.Row="3" Grid.ColumnSpan="4" Text="Total" TextColor="DarkGray" x:Name="res"  FontSize="26" IsReadOnly="True"></Entry>
+        </Grid>
+        
+
+    </StackLayout>
+
+</ContentPage>
